@@ -2,11 +2,18 @@
    box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+  background-image: url('assets/bg.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .container {
   width:90%;
   max-width: 1300px;
   margin: 2em auto;
-  background-color:#eee;
+  background-color: transparent;
   overflow:hidden;
   padding:.5em;
 }
